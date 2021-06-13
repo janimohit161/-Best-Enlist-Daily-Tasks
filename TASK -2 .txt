@@ -1,0 +1,81 @@
+# day - 2 task
+
+# print a value . no matter use single or double quotes
+
+print("30 days 30 hour challenge")
+print('30 days 30 hour challenge')                              
+
+# assigning String to variable:
+
+Hours ="thirty"
+print(Hours)
+
+# indexing using String:
+
+Days = "Thirty"
+print(Days[0])
+print(Days[4])
+
+# print the particular character from certain text 
+
+challenge = "I will win"
+print(challenge[7:])
+print(challenge[2:6])
+print(challenge[:3])
+# print the length of the character
+
+challenge = "I will win"
+print(len(challenge))
+
+# convert string into lower character: 
+
+challenge = "I will win"
+print(challenge.lower())
+
+# String Concatenation - joining two strings
+
+a = "30 days"
+b = "30 hours"
+c = "challenge"
+d = a + b + c
+print("anwer is"  + d)
+
+# adding space during concatenation
+
+a = "30 days"
+b = "30 hours"
+c = "challenge"
+d = a + " " + b + " " + c
+print(d)
+
+# casefold() - Usage
+
+text = "Thirty days and Thirty hours"
+x = text.casefold()
+print(x)
+
+
+text = "DON'T TROUBLE TROUBLE UNTIL TROUBLE TROUBLES YOU"
+print(text.capitalize())
+print(text.find('UNTIL'))
+print(text.isalpha())
+print(text.isalnum())
+
+
+
+
+
+OUTPUT:
+
+win
+will
+I w
+10
+i will win
+anwer is30 days30 hourschallenge
+30 days 30 hours challenge
+thirty days and thirty hours
+Don't trouble trouble until trouble troubles you
+22
+False
+False
